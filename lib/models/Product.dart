@@ -1,4 +1,4 @@
-// ignore_for_file: non_constant_identifier_names
+// ignore_for_file: file_names
 
 class Product {
   final String title, image, id, details;
@@ -10,6 +10,7 @@ class Product {
       required this.details});
 }
 
+// ignore: non_constant_identifier_names
 List<Product> demo_products = [
   Product(
     id: '1',
